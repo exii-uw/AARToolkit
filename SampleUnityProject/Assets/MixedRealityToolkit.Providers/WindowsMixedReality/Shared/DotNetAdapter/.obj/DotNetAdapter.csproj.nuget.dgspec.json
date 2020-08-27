@@ -1,0 +1,57 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\GIT_DIR\\Simple_Procam_Calibration_Suite\\UnityIntegration\\SampleUnityProject\\Assets\\MixedRealityToolkit.Providers\\WindowsMixedReality\\Shared\\DotNetAdapter\\DotNetAdapter.csproj": {}
+  },
+  "projects": {
+    "D:\\GIT_DIR\\Simple_Procam_Calibration_Suite\\UnityIntegration\\SampleUnityProject\\Assets\\MixedRealityToolkit.Providers\\WindowsMixedReality\\Shared\\DotNetAdapter\\DotNetAdapter.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GIT_DIR\\Simple_Procam_Calibration_Suite\\UnityIntegration\\SampleUnityProject\\Assets\\MixedRealityToolkit.Providers\\WindowsMixedReality\\Shared\\DotNetAdapter\\DotNetAdapter.csproj",
+        "projectName": "DotNetAdapter",
+        "projectPath": "D:\\GIT_DIR\\Simple_Procam_Calibration_Suite\\UnityIntegration\\SampleUnityProject\\Assets\\MixedRealityToolkit.Providers\\WindowsMixedReality\\Shared\\DotNetAdapter\\DotNetAdapter.csproj",
+        "packagesPath": "C:\\Users\\jerem\\.nuget\\packages\\",
+        "outputPath": "D:\\GIT_DIR\\Simple_Procam_Calibration_Suite\\UnityIntegration\\SampleUnityProject\\Assets\\MixedRealityToolkit.Providers\\WindowsMixedReality\\Shared\\DotNetAdapter\\.obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "D:\\GIT_DIR\\Simple_Procam_Calibration_Suite\\UnityIntegration\\SampleUnityProject\\Assets\\NuGet.Config",
+          "C:\\Users\\jerem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net46"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/UnityDeveloperTools/MSBuildForUnity/_packaging/UnityDeveloperTools/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net46": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net46": {
+          "dependencies": {
+            "Microsoft.Windows.MixedReality.DotNetWinRT": {
+              "suppressParent": "Analyzers",
+              "target": "Package",
+              "version": "[0.5.1045, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

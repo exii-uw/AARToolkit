@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "p7iOUS2LFKf1WpRWLyvfEU/9UkId2IGQOMbRyyJKVj+CT8kVs24SgiY0kNnJmBBrFlicPpSkP80zbSbjAqWYHg==",
+  "success": true,
+  "projectFilePath": "D:\\GIT_DIR\\Simple_Procam_Calibration_Suite\\UnityIntegration\\SampleUnityProject\\Assets\\MixedRealityToolkit.Providers\\WindowsMixedReality\\Shared\\DotNetAdapter\\DotNetAdapter.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jerem\\.nuget\\packages\\microsoft.windows.mixedreality.dotnetwinrt\\0.5.1045\\microsoft.windows.mixedreality.dotnetwinrt.0.5.1045.nupkg.sha512",
+    "C:\\Users\\jerem\\.nuget\\packages\\system.drawing.primitives\\4.3.0\\system.drawing.primitives.4.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}

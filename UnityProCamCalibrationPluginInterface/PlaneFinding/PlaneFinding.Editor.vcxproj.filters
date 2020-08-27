@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ResourceCompile Include=".\PlaneFinding.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\resource.h" />
+    <ClInclude Include="HalfEdgeMesh.h" />
+    <ClInclude Include="MathHelpers.h" />
+    <ClInclude Include="NBest.h" />
+    <ClInclude Include="PCAHelper.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="PlaneFinding.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Util.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="FindPlanes.cpp" />
+    <ClCompile Include="HalfEdgeMesh.cpp" />
+    <ClCompile Include="MergePlanes.cpp" />
+    <ClCompile Include="PCAHelper.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Util.cpp" />
+  </ItemGroup>
+</Project>

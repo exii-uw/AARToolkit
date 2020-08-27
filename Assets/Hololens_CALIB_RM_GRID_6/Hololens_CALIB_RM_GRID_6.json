@@ -1,0 +1,299 @@
+{
+
+    "Cameras": [
+        {
+            "ID": 0,
+            "Name": "Camera_0",
+            "Type": "HOLOLENSV1RM",
+            "Parameters": [
+                {
+                    "CameraID": 0,
+                    "Distortion": 7.8551238460644e-09,
+                    "Extrinsics": [
+                        [
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        [
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    ],
+                    "Intrinsics": [
+                        [
+                            1596.9893474243916,
+                            0.0,
+                            699.6035186595758
+                        ],
+                        [
+                            0.0,
+                            -1596.9893474243916,
+                            375.878429419279
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    ],
+                    "ProjectorID": 0,
+                    "RadialK3": [
+                        [
+                            -0.2219146597536837
+                        ],
+                        [
+                            1.6756063135513837
+                        ],
+                        [
+                            -3.867046664643676
+                        ]
+                    ],
+                    "ServoID": -858993460,
+                    "ServoTheta": -107374176.0
+                }]
+
+        },
+        {
+            "ID": 1,
+            "Name": "Camera_1",
+            "Type": "KINECTV2",
+            "Parameters": [
+                {
+                    "CameraID": 0,
+                    "Distortion": 7.8551238460644e-09,
+                    "Extrinsics": [
+                        [
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        [
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    ],
+                    "Intrinsics": [
+                        [
+                            1074.1427603534408,
+                            0.0,
+                            1005.0677047124045
+                        ],
+                        [
+                            0.0,
+                            1074.1427603534408,
+                            585.7393257908548
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    ],
+                    "ProjectorID": 0,
+                    "RadialK3": [
+                        [
+                            0.0661043336862817
+                        ],
+                        [
+                            -0.09845937440543463
+                        ],
+                        [
+                            0.02981144382941719
+                        ]
+                    ],
+                    "ServoID": -858993460,
+                    "ServoTheta": -107374176.0
+                }]
+
+        }
+    ],
+    "Directory": "D:\\Dropbox\\WATERLOO FILES - ALL\\_RESEARCH\\HMD AR PROJECTOR\\HoloLens_CALIB_RM_GRID_6",
+    "EnableGridCalib": true,
+    "Name": "HoloLens_CALIB_RM_GRID_6",
+    "NumCameras": 2,
+    "NumExternalDisplays": 2,
+    "NumProjectors": 1,
+    "NumServos": 2,
+    "StructureFromMotion": {
+        "UseGroundControlPoints": true,
+        "RestrictPutativeMatches": false,
+        "PutativeMatchSampleSize": 100000,
+        "InitialPair": {
+            "I": 0,
+            "J": 1
+        }
+    },
+    "Projectors": [
+        {
+            "DisplayIndex": 2,
+            "GrayCodeOptions": {
+                "Complementary": true,
+                "Debug": true,
+                "FindNonPlanarSamples": true,
+                "FringeInterval": 1,
+                "Horizontal": true,
+                "IntensityThreshold": 0.10000000149011612,
+                "MaxSamples": 50000,
+                "NSamples": 2000,
+                "NumFringes": 8,
+                "ProjectorHeight": 720,
+                "ProjectorHorizontalCenter": 0.5,
+                "ProjectorWidth": 1280,
+                "UseOpenCV": true,
+                "Vertical": true
+            },
+            "ID": 0,
+            "Name": "Projector_0",
+            "Parameters": [
+                {
+                    "CameraID": 0,
+                    "Distortion": -6.28368676439349e-08,
+                    "Extrinsics": [
+                        [
+                            -0.868372443114633,
+                            -0.03353943767579833,
+                            0.4947771277651329,
+                            -0.7795679868648947
+                        ],
+                        [
+                            -0.08441905342379194,
+                            0.993145692884997,
+                            -0.08083969398141946,
+                            -0.14628302856280054
+                        ],
+                        [
+                            -0.4886744554999313,
+                            -0.1119675793449596,
+                            -0.8652517192802772,
+                            0.6089950980179637
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    ],
+                    "Intrinsics": [
+                        [
+                            1684.9576774050036,
+                            0.0,
+                            635.2470639634731
+                        ],
+                        [
+                            0.0,
+                            1684.9576774050036,
+                            389.9901038804457
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    ],
+                    "ProjectorID": 0,
+                    "RadialK3": [
+                        [
+                            -0.17079097656372795
+                        ],
+                        [
+                            1.8307861410306646
+                        ],
+                        [
+                            -5.5046511224610559
+                        ]
+                    ],
+                    "ServoID": -858993460,
+                    "ServoTheta": -107374176.0
+                }]
+        }
+    ],
+    "RawFile": "D:\\Dropbox\\WATERLOO FILES - ALL\\_RESEARCH\\HMD AR PROJECTOR\\df.json",
+    "Servos": [
+        {
+            "ID": 0,
+            "Name": "Servo_0",
+            "Settings": {
+                "ArduinoID": 1,
+                "ComPort": 4,
+                "Range": [
+                    [
+                        0
+                    ],
+                    [
+                        270
+                    ]
+                ],
+                "ServoCalib": {
+                    "Range": [
+                        [
+                            115
+                        ],
+                        [
+                            155
+                        ]
+                    ],
+                    "Steps": 3
+                }
+            }
+        },
+        {
+            "ID": 1,
+            "Name": "Servo_1",
+            "Settings": {
+                "ArduinoID": 0,
+                "ComPort": 4,
+                "Range": [
+                    [
+                        0
+                    ],
+                    [
+                        180
+                    ]
+                ],
+                "ServoCalib": {
+                    "Range": [
+                        [
+                            75
+                        ],
+                        [
+                            95
+                        ]
+                    ],
+                    "Steps": 3
+                }
+            }
+        }
+    ]
+}

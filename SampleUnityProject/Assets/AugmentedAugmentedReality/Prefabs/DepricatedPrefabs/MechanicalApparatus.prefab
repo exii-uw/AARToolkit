@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &259350748452526379
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 259350748452526381}
+  - component: {fileID: 259350748452526378}
+  - component: {fileID: 2020565392823924433}
+  m_Layer: 0
+  m_Name: MechanicalApparatus
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &259350748452526381
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 259350748452526379}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.6863668, y: -0.20553583, z: 0.09369147}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &259350748452526378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 259350748452526379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27de28e6b585d38498b71f89208d0c38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ServoPrefab: {fileID: 5405004037309620675, guid: 60a270ca9ef2f0c4584c749ecec9d301,
+    type: 3}
+  ProjectorPrefab: {fileID: 1002063523185846212, guid: 91705b585fbd3f94d933942ce079533c,
+    type: 3}
+  mServoReconstructionFile: D:\Dropbox\WATERLOO FILES - ALL\_RESEARCH\HMD AR PROJECTOR\HoloLens_CALIB_RM_GRID_3//servo_reconstruction.json
+--- !u!114 &2020565392823924433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 259350748452526379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6440921acf0cc8408a4586d47c6b57f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MixedRealityCamera: {fileID: 0}
