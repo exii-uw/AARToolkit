@@ -2,7 +2,7 @@
 
 _Unity toolkit for development and prototyping of a hybrid projector / AR system._
 
-**NOTE:** This is part one of two repositories the encompass the AAR code files. Part one primarly focuses on Unity and design AAR experiences. Part two focuses on calibration and backend utilities (posting soon).
+**NOTE:** This is part one of two repositories the encompass the AAR code files. Part one primarly focuses on Unity and the tools needed to design AAR experiences. Part two focuses on calibration and backend utilities (posting soon).
 
 See: https://jjhartmann.github.io/AugmentedAugmentedReality/ 
 
